@@ -1,0 +1,48 @@
+div#wrapper {
+  float: left;
+  height: 250px;
+  width: 74%;
+  min-width: 320px;
+}
+
+div#chart {
+  width: 100%;
+  height: 100%;
+}
+
+div#parties {
+  float: left;
+  height: 250px;
+  width: 23%;
+  min-width: 190px;
+  margin-top: 1.5em;
+}
+
+div.clear {
+  clear: both;
+}
+
+div.party {
+  margin-bottom: 0.5em;
+}
+
+div.party div.colour {
+  float: left;
+  height: 1.1em;
+  width: 1.1em;
+}
+
+div.party div.colour span {
+  display: block;
+  width: 1.1em;
+  height: 1.1em;
+}
+
+div.party div.name {
+  float: left;
+  margin-left: 0.5em;
+  width: 75%;
+  font-family: 'Arial', sans-serif;
+  font-size: 1em;
+  display: inline-block;
+}

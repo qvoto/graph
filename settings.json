@@ -1,0 +1,202 @@
+{
+  "ISbyVw" : {
+    "parties" : {
+      "Spain" : {
+        "name"   : "Spain",
+        "colour" : "blue",
+        "preset" : [
+          "Seat",
+          "Free Time",
+          "Tapas",
+          "Orange",
+          "Android"
+        ]
+      },
+      "Poland" : {
+        "name" : "Poland",
+        "colour" : "green",
+        "preset" : [
+          "Ford",
+          "Sport",
+          "Pizza",
+          "Red",
+          "iPhone"
+        ]
+      },
+      "Japan" : {
+        "name" : "Japan",
+        "colour" : "red",
+        "preset" : [
+          "Ford",
+          "Money",
+          "Salad",
+          "Blue",
+          "Android"
+        ]
+      },
+      "Brazil" : {
+        "name" : "Brazil",
+        "colour" : "yellow",
+        "preset" : [
+          "Seat",
+          "Sport",
+          "Salad",
+          "Orange",
+          "Windows"
+        ]
+      },
+      "America" : {
+        "name" : "America",
+        "colour" : "brown",
+        "preset" : [
+          "Ford",
+          "Money",
+          "Tapas",
+          "Blue",
+          "iPhone"
+        ]
+      },
+      "Korea" : {
+        "name" : "Korea",
+        "colour" : "black",
+        "preset" : [
+          "Toyota",
+          "Sport",
+          "Salad",
+          "Orange",
+          "Android"
+        ]
+      }
+    }
+  },
+  "SZur3p" : {
+    "parties" : {
+      "Ciudadanos" : {
+        "name"   : "Ciudadanos",
+        "colour"  : "#FF710D",
+        "preset" : [
+          "a favor",
+        	"en contra",
+        	"a favor",
+        	"a favor",
+        	"a favor",
+        	"en contra",
+        	"neutral",
+        	"neutral",
+        	"neutral",
+        	"neutral",
+        	"a favor",
+        	"a favor",
+        	"a favor",
+        	"a favor",
+        	"en contra"
+        ]
+      },
+      "Podemos" : {
+        "name" : "Podemos",
+        "colour"  : "#5F005B",
+        "preset" : [
+          "en contra",
+        	"a favor",
+        	"en contra",
+        	"en contra",
+        	"a favor",
+        	"en contra",
+        	"a favor",
+        	"neutral",
+        	"en contra",
+        	"a favor",
+        	"a favor",
+        	"en contra",
+        	"a favor",
+        	"a favor",
+        	"en contra"
+        ]
+      },
+      "PSOE" : {
+        "name" : "Partido Socialista Obrero Español",
+        "colour" : "#FF0000",
+        "preset" : [
+          "en contra",
+        	"en contra",
+        	"a favor",
+        	"en contra",
+        	"a favor",
+        	"en contra",
+        	"a favor",
+        	"a favor",
+        	"en contra",
+        	"a favor",
+        	"neutral",
+        	"en contra",
+        	"a favor",
+        	"a favor",
+        	"neutral"
+        ]
+      },
+      "PP" : {
+        "name"   : "Partido Popular",
+        "colour"  : "#00AFFF",
+        "preset" : [
+          "en contra",
+        	"en contra",
+        	"a favor",
+        	"a favor",
+        	"en contra",
+        	"a favor",
+        	"neutral",
+        	"neutral",
+        	"a favor",
+        	"neutral",
+        	"neutral",
+        	"a favor",
+        	"neutral",
+        	"a favor",
+        	"neutral"
+        ]
+      },
+      "UPyD" : {
+        "name"   : "Unión, Progreso y Democracia",
+        "colour"  : "#FF0086",
+        "preset" : [
+          "a favor",
+        	"en contra",
+        	"a favor",
+        	"en contra",
+        	"a favor",
+        	"en contra",
+        	"a favor",
+        	"neutral",
+        	"en contra",
+        	"a favor",
+        	"a favor",
+        	"en contra",
+        	"a favor",
+        	"a favor",
+        	"en contra"
+        ]
+      },
+      "IU" : {
+        "name"   : "Izquierda Unida",
+        "colour"  : "#A70000",
+        "preset" : [
+          "en contra",
+        	"a favor",
+        	"en contra",
+        	"en contra",
+        	"a favor",
+        	"en contra",
+        	"a favor",
+        	"a favor",
+        	"en contra",
+        	"a favor",
+        	"a favor",
+        	"en contra",
+        	"a favor",
+        	"a favor",
+        	"en contra"
+        ]
+      }
+    }
+  }
+}

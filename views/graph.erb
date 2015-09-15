@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>QVoto graph</title>
+    <link rel="stylesheet" type="text/css" href="<%= settings.qvoto_host %>/assets/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript" src="<%= settings.qvoto_host %>/assets/lib.js"></script>
+    <script type="text/javascript">
+      var resultData =  <%= JSON.generate(answer.to_json) %>;
+
+      google.load('visualization', '1', {'packages':['corechart']});
+      google.setOnLoadCallback(chartBuilder.create);
+  </script>
+  </head>
+
+  <body>
+    <div id="wrapper">
+      <div id="chart"></div>
+    </div>
+    <div id="parties"></div>
+  </body>
+</html>
