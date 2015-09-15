@@ -29,6 +29,10 @@ get '/assets/lib.js' do
   send_file File.join(__dir__, 'assets/lib.js')
 end
 
+get '/server-info' do
+  'ok'
+end
+
 get '/assets/style.css' do
   send_file File.join(__dir__, 'assets/style.css')
 end

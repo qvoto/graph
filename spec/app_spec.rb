@@ -37,4 +37,18 @@ describe 'QVoto App' do
       it_behaves_like 'valid asset'
     end
   end
+
+  describe '/server-info' do
+    before do
+      get '/server-info'
+    end
+
+    it 'has a valid status' do
+      expect(last_response).to be_ok
+    end
+
+    it 'returns ok as the body content' do
+      expect(last_response.body).to eq 'ok'
+    end
+  end
 end
