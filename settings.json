@@ -3,7 +3,7 @@
     "parties" : {
       "Spain" : {
         "name"   : "Spain",
-        "colour" : "blue",
+        "colour" : "white",
         "preset" : [
           "Seat",
           "Free Time",
