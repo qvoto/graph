@@ -9,7 +9,8 @@
           "Free Time",
           "Tapas",
           "Orange",
-          "Android"
+          "Android",
+          "U2"
         ]
       },
       "Poland" : {
@@ -20,7 +21,8 @@
           "Sport",
           "Pizza",
           "Red",
-          "iPhone"
+          "iPhone",
+          "Nirvana"
         ]
       },
       "Japan" : {
@@ -31,7 +33,8 @@
           "Money",
           "Salad",
           "Blue",
-          "Android"
+          "Android",
+          "U2"
         ]
       },
       "Brazil" : {
@@ -42,7 +45,8 @@
           "Sport",
           "Salad",
           "Orange",
-          "Windows"
+          "Windows",
+          "U2"
         ]
       },
       "America" : {
@@ -53,7 +57,8 @@
           "Money",
           "Tapas",
           "Blue",
-          "iPhone"
+          "iPhone",
+          "Nirvana"
         ]
       },
       "Korea" : {
@@ -64,7 +69,8 @@
           "Sport",
           "Salad",
           "Orange",
-          "Android"
+          "Android",
+          "Rolling Stone"
         ]
       }
     }
