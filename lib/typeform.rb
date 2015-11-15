@@ -17,7 +17,7 @@ module QVoto
       end
     end
 
-    attr_reader   :connection, :form_uid
+    attr_reader :connection, :form_uid
 
     def initialize(connection, form_uid)
       @connection = connection

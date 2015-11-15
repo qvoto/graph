@@ -1,0 +1,76 @@
+{
+  "parties" : {
+    "Spain" : {
+      "name"   : "Spain",
+      "colour" : "white",
+      "preset" : [
+        "Seat",
+        "Free Time",
+        "Tapas",
+        "Orange",
+        "Android",
+        "U2"
+      ]
+    },
+    "Poland" : {
+      "name" : "Poland",
+      "colour" : "green",
+      "preset" : [
+        "Ford",
+        "Sport",
+        "Pizza",
+        "Red",
+        "iPhone",
+        "Nirvana"
+      ]
+    },
+    "Japan" : {
+      "name" : "Japan",
+      "colour" : "red",
+      "preset" : [
+        "Ford",
+        "Money",
+        "Salad",
+        "Blue",
+        "Android",
+        "U2"
+      ]
+    },
+    "Brazil" : {
+      "name" : "Brazil",
+      "colour" : "yellow",
+      "preset" : [
+        "Seat",
+        "Sport",
+        "Salad",
+        "Orange",
+        "Windows",
+        "U2"
+      ]
+    },
+    "America" : {
+      "name" : "America",
+      "colour" : "brown",
+      "preset" : [
+        "Ford",
+        "Money",
+        "Tapas",
+        "Blue",
+        "iPhone",
+        "Nirvana"
+      ]
+    },
+    "Korea" : {
+      "name" : "Korea",
+      "colour" : "black",
+      "preset" : [
+        "Toyota",
+        "Sport",
+        "Salad",
+        "Orange",
+        "Android",
+        "Rolling Stone"
+      ]
+    }
+  }
+}

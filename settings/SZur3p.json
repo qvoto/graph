@@ -1,0 +1,130 @@
+{
+  "parties" : {
+    "Ciudadanos" : {
+      "name"   : "Ciudadanos",
+      "colour"  : "#FF710D",
+      "preset" : [
+        "a favor",
+        "en contra",
+        "a favor",
+        "a favor",
+        "a favor",
+        "en contra",
+        "neutral",
+        "neutral",
+        "en contra",
+        "neutral",
+        "a favor",
+        "a favor",
+        "a favor",
+        "a favor",
+        "en contra"
+      ]
+    },
+    "Podemos" : {
+      "name" : "Podemos",
+      "colour"  : "#5F005B",
+      "preset" : [
+        "en contra",
+        "a favor",
+        "en contra",
+        "en contra",
+        "a favor",
+        "en contra",
+        "a favor",
+        "neutral",
+        "en contra",
+        "a favor",
+        "a favor",
+        "en contra",
+        "a favor",
+        "a favor",
+        "en contra"
+      ]
+    },
+    "PSOE" : {
+      "name" : "Partido Socialista Obrero Español",
+      "colour" : "#FF0000",
+      "preset" : [
+        "en contra",
+        "en contra",
+        "a favor",
+        "en contra",
+        "a favor",
+        "en contra",
+        "a favor",
+        "a favor",
+        "en contra",
+        "a favor",
+        "neutral",
+        "en contra",
+        "a favor",
+        "a favor",
+        "neutral"
+      ]
+    },
+    "PP" : {
+      "name"   : "Partido Popular",
+      "colour"  : "#00AFFF",
+      "preset" : [
+        "en contra",
+        "en contra",
+        "a favor",
+        "a favor",
+        "neutral",
+        "a favor",
+        "neutral",
+        "neutral",
+        "a favor",
+        "neutral",
+        "neutral",
+        "a favor",
+        "neutral",
+        "a favor",
+        "neutral"
+      ]
+    },
+    "UPyD" : {
+      "name"   : "Unión, Progreso y Democracia",
+      "colour"  : "#FF0086",
+      "preset" : [
+        "a favor",
+        "en contra",
+        "a favor",
+        "en contra",
+        "a favor",
+        "en contra",
+        "a favor",
+        "neutral",
+        "en contra",
+        "a favor",
+        "a favor",
+        "en contra",
+        "a favor",
+        "a favor",
+        "en contra"
+      ]
+    },
+    "IU" : {
+      "name"   : "Izquierda Unida",
+      "colour"  : "#A70000",
+      "preset" : [
+        "en contra",
+        "a favor",
+        "en contra",
+        "en contra",
+        "a favor",
+        "en contra",
+        "a favor",
+        "a favor",
+        "en contra",
+        "a favor",
+        "a favor",
+        "en contra",
+        "a favor",
+        "a favor",
+        "en contra"
+      ]
+    }
+  }
+}
