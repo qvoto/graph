@@ -1,11 +1,15 @@
 module QVoto
   class Aggregator
-
-    SETTINGS = File.read(File.join(__dir__, '..', 'settings.json')).freeze
-
     class << self
       def settings
-        @settings ||= JSON.parse(SETTINGS)
+        @settings ||= setting_files.each_with_object({}) do |file, hash|
+          form_id = File.basename(file, '.json')
+          hash.merge!(form_id => JSON.parse(File.read(file)))
+        end.freeze
+      end
+
+      def setting_files
+        Dir[File.join(__dir__, '..', 'settings', '*.json')]
       end
     end
 

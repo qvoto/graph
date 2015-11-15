@@ -79,11 +79,18 @@ describe QVoto::Aggregator do
   end
 
   describe '.settings' do
-    let(:settings_file) { File.join(__dir__, '..', '..', 'settings.json') }
-    let(:settings_json) { JSON.parse(File.read(settings_file)) }
+    let(:settings_path) { Pathname.new(__dir__).join('..', '..', 'settings') }
 
-    it 'parses and return the content of the settings file' do
-      expect(described_class.settings).to eq settings_json
+    it 'has a namespace for each setting file' do
+      expect(described_class.settings.keys.count)
+        .to eq Dir["#{ settings_path.join('*.json') }"].count
+    end
+
+    it 'parses and return the content of each of the the settings file' do
+      described_class.settings.each do |form_id, form_settings|
+        expect(form_settings)
+          .to eq JSON.parse(File.read(settings_path.join("#{ form_id }.json")))
+      end
     end
   end
 end
