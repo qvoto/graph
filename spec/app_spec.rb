@@ -51,4 +51,47 @@ describe 'QVoto App' do
       expect(last_response.body).to eq 'ok'
     end
   end
+
+  describe '/graph' do
+    let(:quid)        { 'quid' }
+    let(:json_answer) { { an: 'answer' } }
+    let(:rack_env)    { {} }
+    let(:answer) do
+      instance_double(QVoto::Answer, error: error, to_json: json_answer)
+    end
+
+    before do
+      allow(QVoto::Answer)
+        .to receive(:find_by_quid).with(quid).and_return(answer)
+      get '/graph', { quid: quid }, rack_env
+    end
+
+    context 'when qvoto answer generates an error' do
+      let(:error) { true }
+
+      it 'renders the error template' do
+        expect(last_response.body)
+          .to include 'Error accediendo a los datos de la respuesta'
+      end
+    end
+
+    context 'when qvoto answer returns a valid answer' do
+      let(:error) { false }
+
+      context 'when the client accepts application/json' do
+        let(:rack_env) { { 'HTTP_ACCEPT' => 'application/json' } }
+
+        it 'renders the answer in JSON format' do
+          expect(last_response.body).to eq json_answer.to_json
+        end
+      end
+
+      context 'when the client does not accept application/json' do
+        it 'renders the graph template with the answer' do
+          expect(last_response.body)
+            .to include '<div id="chart"></div>'
+        end
+      end
+    end
+  end
 end
