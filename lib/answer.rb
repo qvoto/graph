@@ -3,7 +3,8 @@ module QVoto
 
     # Relate public uids in the quid with internal typeforms uids
     #             'xyz' => testform, 'wqd' => qvoto
-    FORM_UIDS = { 'xyz' => 'ISbyVw', 'wqd' => 'SZur3p' }
+    FORM_UIDS = { 'xyz' => 'ISbyVw', 'wqd' => 'SZur3p', 
+                  'oht' => 'Dpj44O' }
 
     # Number of seconds ago within the response should have been
     # created. It will be passed to the Typeform API. 5 minutes now.
