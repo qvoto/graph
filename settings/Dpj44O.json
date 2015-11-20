@@ -63,8 +63,7 @@
         "a favor"
       ]
     },
-
-    "Ciudadanos": {
+    "C’s": {
       "name": "Ciudadanos",
       "colour": "#FF710D",
       "preset": [
@@ -126,8 +125,8 @@
         "a favor"
       ]
     },
-    "UP": {
-      "name": "Unidad Popular",
+    "IU-UPeC": {
+      "name": "Unidad Popular: Izquierda Unida - Unidad Popular en Común",
       "colour": "#A70000",
       "preset": [
         "a favor",
@@ -188,47 +187,15 @@
         "a favor"
       ]
     },
-    "Junts pel Si": {
-      "name": "Junts pel Si",
-      "colour": "#00DBCB",
-      "preset": [
-        "a favor",
-        "en contra",
-        "en contra",
-        "en contra",
-        "a favor",
-        "en contra",
-        "a favor",
-        "a favor",
-        "a favor",
-        "permanecerá igual",
-        "a favor",
-        "a favor",
-        "a favor",
-        "en contra",
-        "en contra",
-        "a favor",
-        "a favor",
-        "en contra",
-        "a favor",
-        "a favor",
-        "en contra",
-        "en contra",
-        "a favor",
-        "en contra",
-        "a favor"
-
-      ]
-    },
-    "CUP": {
-      "name": "CUP",
-      "colour": "#FDF400",
+    "ERC": {
+      "name": "Esquerra Republicana de Catalunya",
+      "colour": "#F8FF00",
       "preset": [
         "a favor",
         "en contra",
         "en contra",
         "a favor",
-        "a favor",
+        "en contra",
         "en contra",
         "a favor",
         "en contra",
@@ -241,11 +208,42 @@
         "en contra",
         "en contra",
         "a favor",
+        "a favor",
+        "a favor",
+        "a favor",
+        "en contra",
+        "a favor",
+        "en contra",
+        "a favor",
+        "a favor"
+      ]
+    },
+    "DL": {
+      "name": "Democràcia i Llibertat. Convergència. Demòcrates. Reagrupament",
+      "colour": "#271C66",
+      "preset": [
+        "a favor",
+        "en contra",
+        "en contra",
         "en contra",
         "a favor",
         "a favor",
         "en contra",
+        "en contra",
+        "en contra",
+        "permanecerá igual",
         "a favor",
+        "en contra",
+        "en contra",
+        "en contra",
+        "a favor",
+        "a favor",
+        "en contra",
+        "en contra",
+        "a favor",
+        "en contra",
+        "en contra",
+        "en contra",
         "en contra",
         "en contra",
         "a favor"
@@ -329,8 +327,8 @@
         "subirá para las rentas altas",
         "a favor",
         "a favor",
-        "en contra",
-        "en contra",
+        "a favor",
+        "a favor",
         "en contra",
         "en contra",
         "a favor",
@@ -367,7 +365,7 @@
         "a favor",
         "en contra",
         "a favor",
-        "a favor",
+        "en contra",
         "en contra",
         "en contra",
         "en contra",
@@ -375,7 +373,7 @@
         "a favor"
       ]
     },
-    "NÓS-Candidatura Galega": {
+    "NÓS": {
       "name": "NÓS-Candidatura Galega",
       "colour": "#009CD7",
       "preset": [
