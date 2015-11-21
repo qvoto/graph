@@ -1,7 +1,8 @@
 div#wrapper {
   float: left;
-  height: 250px;
-  width: 74%;
+  height: 450px;
+  width: 95%;
+  margin: 0px auto;
   min-width: 320px;
 }
 
@@ -11,6 +12,7 @@ div#chart {
 }
 
 div#parties {
+  display: none;
   float: left;
   height: 250px;
   width: 23%;

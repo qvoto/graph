@@ -50,7 +50,7 @@ var chartBuilder = {
       var chart     = new google.visualization.BarChart(element);
       var separator = ['', 0, '', ''];
 
-      data.addColumn('string', 'Countries');
+      data.addColumn('string', 'Parties');
       data.addColumn('number', 'Affinity');
       data.addColumn({ type: 'string', role: 'style' });
       data.addColumn({ type: 'string', role: 'annotation' });
@@ -75,7 +75,14 @@ var chartBuilder = {
         legend         : { position: 'none' },
         chartArea      : { width: '90%', height: '80%'},
         bar            : { groupWidth: '100%' },
-        vAxis          : { textStyle: { color: 'white', fontSize: 0.1 } },
+        vAxis          : {
+          textPosition: 'in',
+          textStyle: {
+            color: 'white',
+            fontSize: 14,
+            auraColor: 'black',
+          },
+        },
         hAxis          : { ticks: this.ticks }
       };
       chart.draw(data, options);
