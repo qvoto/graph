@@ -68,8 +68,8 @@ var chartBuilder = {
       data.addRow(separator);
 
       var options = {
-        title          : 'Grado de acuerdo',
-        titleTextStyle : { fontSize: '22' },
+        title          : '',
+        titleTextStyle : { fontSize: '0.1' },
         width          : '100%',
         height         : '100%',
         legend         : { position: 'none' },

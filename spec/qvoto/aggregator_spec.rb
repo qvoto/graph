@@ -81,7 +81,7 @@ describe QVoto::Aggregator do
   describe '.settings' do
     let(:settings_path) { Pathname.new(__dir__).join('..', '..', 'settings') }
 
-    it 'has a namespace for each setting file' do
+    it 'has a namespace for each setting files' do
       expect(described_class.settings.keys.count)
         .to eq Dir["#{ settings_path.join('*.json') }"].count
     end
